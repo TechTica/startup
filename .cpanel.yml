@@ -2,13 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/techt9wj/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
-    - /bin/cp animate.css $DEPLOYPATH
-    - /bin/cp bootstrap.css $DEPLOYPATH
-    - /bin/cp font-awesome.min.css $DEPLOYPATH
-    - /bin/cp custom.css $DEPLOYPATH
-    - /bin/cp magnific-popup.css $DEPLOYPATH
-    - /bin/cp owl.carousel.min.css $DEPLOYPATH
-    - /bin/cp owl.theme.default.min.css $DEPLOYPATH
-   
+    - /bin/cp * $DEPLOYPATH
+    
